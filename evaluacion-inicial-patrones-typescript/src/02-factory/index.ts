@@ -28,3 +28,5 @@ function createNotification(type: NotificationType) {
 			return whatsappNotification;
 	}
 }
+
+export { createNotification, emailNotification, smsNotification, pushNotification, whatsappNotification };

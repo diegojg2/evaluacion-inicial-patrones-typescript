@@ -1,4 +1,4 @@
-interface NotificationService {
+export interface NotificationService {
 	send(to: string, message: string): void;
 }
 
@@ -20,3 +20,5 @@ class UserService {
 		this.notificationService.send(email, 'Bienvenido a la aplicación');
 	}
 }
+
+export { EmailService, UserService };
